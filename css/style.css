@@ -297,3 +297,81 @@
 .gallery-item img:hover {
   transform: scale(1.1);
 }
+.section-pricing {
+  padding: 9.6rem 0;
+}
+.section-pricing .grid {
+  column-gap: 0;
+}
+.pricing-plan {
+  border-radius: 1.1rem;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 1.6rem;
+  width: 75%;
+}
+.pricing-plan-complete {
+  position: relative;
+  overflow: hidden;
+}
+.pricing-plan-complete::after {
+  position: absolute;
+  content: 'Best Price';
+  display: block;
+  right: -35px;
+  top: 13px;
+  padding: 1.2rem 2.4rem;
+  font-size: 2rem;
+  color: #333;
+  background-color: #ffe066;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+  transform: rotate(41deg);
+}
+.pricing-plan-starter {
+  justify-self: center;
+}
+.plan-header {
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+.plan-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 3.2rem 0;
+  color: #cf711f;
+  text-transform: uppercase;
+  letter-spacing: -0.75px;
+}
+.plan-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+  color: #333;
+}
+.plan-price span {
+  color: #cf711f;
+  font-size: 2.4rem;
+}
+.plan-text {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: #6f6f6f;
+}
+
+.plan-signup {
+  text-align: center;
+  margin-top: 1.6rem;
+}
+.best-plan {
+  background-color: #f8d8bda5;
+  color: #333;
+}
+
+.best-plan .plan-text,
+.best-plan .plan-price,
+.best-plan span {
+  color: #fff;
+}

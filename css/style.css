@@ -375,3 +375,70 @@
 .best-plan span {
   color: #fff;
 }
+.feature-icon {
+  color: #e67e22;
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: #fdf2e9;
+  border-radius: 50%;
+  margin-bottom: 1.6rem;
+  padding: 0.8rem;
+}
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+.feature-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.plan-details {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #555;
+}
+.section-cta {
+  padding: 9.6rem 0;
+}
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border-radius: 12px;
+  background-image: linear-gradient(to bottom right, #eb984e, #e67e22);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: 50rem;
+}
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem;
+  color: #45260a;
+}
+.cta .heading-secondary {
+  color: #45260a;
+  margin-bottom: 3.2rem;
+}
+.cta-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #45260a;
+  margin-bottom: 4.8rem;
+}
+.cta-img-box {
+  background: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 35, 0.35)
+    ),
+    url(../img/eating.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}

@@ -37,6 +37,7 @@ spacing system(px)
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *:focus {
   outline: none;
@@ -77,6 +78,7 @@ body {
 }
 .grid--5-col {
   grid-template-columns: repeat(5, 1fr);
+  column-gap: 5.2rem;
 }
 .grid--center-v {
   align-items: center;
